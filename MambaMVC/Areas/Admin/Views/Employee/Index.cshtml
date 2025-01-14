@@ -1,0 +1,49 @@
+﻿@using MambaMVC.Areas.ViewModels.Employee
+@model List<GetEmployeeVM>
+@{
+    int count = 0;
+}
+<div class="col-lg-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Employees Table</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Position Name</th>
+                            <th>Settings</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var employee in Model)
+                        {
+                            count++;
+                            <tr>
+                                <td>
+                                    <p>@count</p>
+                                </td>
+                                <td>
+                                    <p>@employee.Image</p>
+                                </td>
+                                <td>
+                                    <p>@employee.Name</p>
+                                </td>
+                                <td>
+                                  <a class="btn btn-warning" title="Update" asp-controller="employee" asp-action="update" asp-route-id="@employee.Id"></a>
+                                  <a class="btn btn-danger" title="Delete" asp-controller="employee" asp-action="delete" asp-route-id="@employee.Id"></a>
+                                </td>
+                             
+                            </tr>
+
+                        }   
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
