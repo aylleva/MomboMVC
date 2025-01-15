@@ -92,11 +92,12 @@ namespace MambaMVC.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int? Id)
         {
             if (Id is null || Id < 1) return BadRequest();
-            Employee? employee = await _context.Employees.FirstOrDefaultAsync(e => e.Id == Id);
+            Employee? employee = await _context.Employees.Include(e=>e.EmployeeImages).Include(e=>e.Position).FirstOrDefaultAsync(e => e.Id == Id);
             if (employee == null) return NotFound();
 
             UpdateEmployeeVM vM = new UpdateEmployeeVM()
             {
+               
                 Name = employee.Name,
                 PositionId = employee.PositionId,
                 Positions = await _context.Positions.ToListAsync(),
@@ -111,8 +112,11 @@ namespace MambaMVC.Areas.Admin.Controllers
         public async Task<IActionResult> Update(UpdateEmployeeVM employeevm, int? Id)
         {
             if (Id is null || Id < 1) return BadRequest();
-            Employee? existed = await _context.Employees.FirstOrDefaultAsync(e => e.Id == Id);
+            Employee? existed = await _context.Employees.Include(e => e.EmployeeImages).Include(e => e.Position).FirstOrDefaultAsync(e => e.Id == Id);
             if (existed == null) return NotFound();
+
+            employeevm.Positions=await _context.Positions.ToListAsync();
+            employeevm.Images=existed.EmployeeImages;
 
             if (!ModelState.IsValid)
             {
@@ -135,7 +139,7 @@ namespace MambaMVC.Areas.Admin.Controllers
 
             if (employeevm.PositionId != existed.PositionId)
             {
-                bool result=await _context.Employees.AnyAsync(e=>e.Id == existed.Id);
+                bool result=await _context.Employees.AnyAsync(e=>e.Id == employeevm.PositionId);
                 if(!result)
                 {
                     ModelState.AddModelError(nameof(UpdateEmployeeVM.PositionId), "Position does not exits");
@@ -159,7 +163,7 @@ namespace MambaMVC.Areas.Admin.Controllers
             }
 
             existed.Name= employeevm.Name;
-            existed.PositionId= existed.PositionId;
+            existed.PositionId= employeevm.PositionId.Value;
              
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

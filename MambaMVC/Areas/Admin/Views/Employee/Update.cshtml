@@ -21,13 +21,11 @@
                     <span asp-validation-for="Name"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="PositionId">Username</label>
+                    <label asp-for="PositionId">Position</label>
                     <select asp-for="PositionId" asp-items="new SelectList(Model.Positions,nameof(Position.Id),nameof(Position.Name))">
 
                         <option selected disabled value="">Choose a Position</option>
                     </select>
-
-                    <input asp-for="PositionId" class="form-control">
                     <span asp-validation-for="PositionId"></span>
                 </div>
                 <button type="submit" class="btn btn-primary me-2">Submit</button>

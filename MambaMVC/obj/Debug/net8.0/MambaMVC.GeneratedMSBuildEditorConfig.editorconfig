@@ -17,75 +17,77 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MambaMVC
 build_property.RootNamespace = MambaMVC
-build_property.ProjectDir = C:\Users\ll novbe\Desktop\MambaMVC\MambaMVC\
+build_property.ProjectDir = C:\Users\user\Desktop\MVC Exam\MambaMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ll novbe\Desktop\MambaMVC\MambaMVC
+build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\MVC Exam\MambaMVC
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Employee/Create.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Employee/Index.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Employee/Update.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Employee/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Position/Create.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Position/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zaXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Position/Index.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Position/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zaXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Position/Update.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Position/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zaXRpb25cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Views/Account/Login.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Views/Account/Register.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Views/Home/Index.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Views/_ViewImports.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ll novbe/Desktop/MambaMVC/MambaMVC/Views/_ViewStart.cshtml]
+[C:/Users/user/Desktop/MVC Exam/MambaMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

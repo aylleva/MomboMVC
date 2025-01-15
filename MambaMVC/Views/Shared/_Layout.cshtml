@@ -72,23 +72,22 @@
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#team">Team</a></li>
                         <li class="dropdown">
-                            <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a href="#">Dropdown 1</a></li>
-                                <li class="dropdown">
-                                    <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                    <ul>
-                                        <li><a href="#">Deep Dropdown 1</a></li>
-                                        <li><a href="#">Deep Dropdown 2</a></li>
-                                        <li><a href="#">Deep Dropdown 3</a></li>
-                                        <li><a href="#">Deep Dropdown 4</a></li>
-                                        <li><a href="#">Deep Dropdown 5</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 3</a></li>
-                                <li><a href="#">Dropdown 4</a></li>
-                            </ul>
+                            <a href="#"><span>Account</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            @if(User.Identity.IsAuthenticated){
+                                <ul>
+                                    <li><a>@User.Identity.Name</a></li>
+                                    <li><a asp-controller="account" asp-action="logout">Logout</a></li>
+
+                                </ul>
+
+                            }
+                            else{
+                                <ul>
+                                    <li><a asp-controller="account" asp-action="login">Login</a></li>
+                                    <li><a asp-controller="account" asp-action="register" asp-route-returnurl="@Context.Request.Path.Value">Register</a></li>
+
+                                </ul>
+                            }
                         </li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>

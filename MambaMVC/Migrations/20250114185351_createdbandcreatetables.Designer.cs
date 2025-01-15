@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MambaMVC.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250114112339_createdbandcreatetables")]
+    [Migration("20250114185351_createdbandcreatetables")]
     partial class createdbandcreatetables
     {
         /// <inheritdoc />

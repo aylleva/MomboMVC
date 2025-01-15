@@ -8,6 +8,6 @@ namespace MambaMVC.Areas.ViewModels.Employee
         public string? Name { get; set; }
         public int? PositionId { get; set; }
         public List<Position>? Positions { get; set; }
-        public List<EmployeeImage> Images { get; set; }
+        public List<EmployeeImage>? Images { get; set; }
     }
 }

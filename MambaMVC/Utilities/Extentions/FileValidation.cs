@@ -39,7 +39,7 @@ namespace MambaMVC.Utilities.Extentions
 
         public async static Task<string> CreateFileAsync(this IFormFile File, params string[] roots)
         {
-            string filename = File.Name;
+            string filename = File.FileName;
 
             string file=string.Concat(Guid.NewGuid().ToString(), filename.Substring(filename.LastIndexOf(".")));
 
